@@ -1,0 +1,98 @@
+body{
+    font-family: Helvetica;
+}
+
+.header{
+    font-size: 13px;
+    text-align: center;
+    color: gray;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.topnav{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+    background-color: lawngreen;
+    text-transform: uppercase;  
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.vintage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    margin-bottom: 12px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.center{
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+th, td {
+    padding: 15px;
+    
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+td {
+    height: 25px;
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.footer{
+    background-color: gainsboro;
+    font-size: 14px;
+    text-align: right;
+    padding-bottom: 13px;
+    padding-top: 13px;
+   
+}
+
+.footer a{
+    margin-right: 10px;
+    text-decoration: none;
+}
